@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+.principal{
+
+    background-image: linear-gradient( 135deg, #667eeaaa 0%, #18062ae9 100%), url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 60px 20px black;
+    border-radius: 30px;
+    border: solid rgb(0, 170, 255) 2px;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+h2{
+   font-size: 30px;
+   color: rgb(35, 207, 255);
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+    
+}
+.principal img{
+    margin-top: 40px;
+    padding: 0px;
+    width: 300px;
+    height: 150px;
+    box-shadow:  3px 10px 20px 3px;
+    border-radius: 30px;
+    border: solid rgb(0, 170, 255) 2px;
+}
+.principal p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 300px;   
+}
